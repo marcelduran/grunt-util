@@ -1,0 +1,32 @@
+{
+  "name": "grunt-util",
+  "description": "grunt's utility belt",
+  "version": "0.1.0",
+  "homepage": "https://github.com/gruntjs/grunt-util",
+  "author": {
+    "name": "Grunt Team",
+    "url": "http://gruntjs.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gruntjs/grunt-util.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gruntjs/grunt-util/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/gruntjs/grunt-util/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/util",
+  "dependencies": {
+    "async": "~0.1.22",
+    "hooker": "~0.2.3",
+    "lodash": "~0.7.0",
+    "underscore.string": "~2.2.0rc",
+    "which": "~1.0.5",
+    "glob": "~3.1.13"
+  }
+}
